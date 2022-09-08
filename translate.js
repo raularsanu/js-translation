@@ -7,13 +7,13 @@ export default function translate(adress) {
     let obj;
     switch(language) {
         case "RO": {
-            
             obj = ro;
             break;
         }
 
         case "EN": {
             obj = en;
+            break;
         }
     }
 
